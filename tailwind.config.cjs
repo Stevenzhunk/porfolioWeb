@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",],
+    "./src/**/*.{js,ts,jsx,tsx}","./node_modules/tw-elements/dist/js/**/*.js"
+  ],
   theme: {
     colors: {
       transparent: 'transparent',
@@ -20,6 +21,8 @@ module.exports = {
       'yellowOpc': '#E2C044',
       'graysoft': '#D3D0CB',
       'softwhite':'#f0f0f0',
+      'silverPlate':'#d8d8d8',
+      'futurePurple':'#362571',
     },
     /*color:{
       transparent: 'transparent',
@@ -36,6 +39,5 @@ module.exports = {
       }
     },
   },
-  plugins: [
-  ],
+  plugins: [require("tw-elements/dist/plugin")],
 }

@@ -1,116 +1,123 @@
-import React from 'react'
+import {ol}  from 'tw-elements';
 
 const Courses = () => {
   return ( 
-    <div className="bg-graymetalsoft ">
-        <h1 class="text-3xl font-semibold capitalize lg:text-4xl  dark:text-white flex justify-center p-8">Educación</h1>
-        <div className="container max-w-full">
-          <div
-            className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50"
-          >
-            {/* left --> */ } 
-            <div className="flex flex-row-reverse md:contents">
-              <div
-                className="bg-white col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
-              >
-                <h3 className="font-semibold text-lg mb-1">JavaScript Algorithms and Data Structures</h3>
-                <p className="leading-tight text-justify">
-                freeCodeCampfreeCodeCamp 300hrs | Expedición: feb. 2023
-                <a href="https://www.freecodecamp.org/certification/fcc568d7948-29f7-4af6-b3f7-02f2223a215f/javascript-algorithms-and-data-structures" target="_blank"><p className="underline">Ver Certificado</p></a>
-                </p>
-              </div>
-              <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
-                <div className="h-full w-6 flex items-center justify-center">
-                  <div className="h-full w-1 bg-white pointer-events-none"></div>
-                </div>
-                <div
-                  className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-purpleOpc shadow"
-                ></div>
-              </div>
-            </div>
-            {/* right --> */ } 
-            <div className="flex md:contents">
-              <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
-                <div className="h-full w-6 flex items-center justify-center">
-                  <div className="h-full w-1 bg-white pointer-events-none"></div>
-                </div>
-                <div
-                  className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-purpleOpc shadow"
-                ></div>
-              </div>
-              <div
-                className="bg-white col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
-              >
-                <h3 className="font-semibold text-lg mb-1">Ruby, Javascript y Gobstones</h3>
-                <p className="leading-tight text-justify">
-                Argentina ProgramaArgentina Programa (Ministerio de Economía y la Cámara Empresarial de Software y Servicios Informáticos (CESSI)) | Expedición: may. 2022
-                <a href="https://stevenzhunkporfolio.s3.amazonaws.com/IMG_20230223_192759_225.jpg" target="_blank"><p className="underline">Ver Certificado</p></a>
-                </p>
-              </div>
-            </div>
-            {/* left --> */ } 
-            <div className="flex flex-row-reverse md:contents">
-              <div
-                className="bg-white col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
-              >
-                <h3 className="font-semibold text-lg mb-1">Advanced React JS</h3>
-                <p className="leading-tight text-justify">
-                  220 hrs Cursos online
-                </p>
-              </div>
-              <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
-                <div className="h-full w-6 flex items-center justify-center">
-                  <div className="h-full w-1 bg-white pointer-events-none"></div>
-                </div>
-                <div
-                  className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-purpleOpc shadow"
-                ></div>
-              </div>
-            </div>
-            
-            {/*<-- right -->*/}
-            <div className="flex md:contents">
-              <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
-                <div className="h-full w-6 flex items-center justify-center">
-                  <div className="h-full w-1 bg-white pointer-events-none"></div>
-                </div>
-                <div
-                  className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-purpleOpc shadow"
-                ></div>
-              </div>
-              <div
-                className="bg-white col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
-              >
-                <h3 className="font-semibold text-lg mb-1"> Cursos presenciales y remotos </h3>
-                <p className="leading-tight text-justify">
-                Programación Web Basica (CSS,HTML y Javascript), Metodologias SCRUM, Edición de imagenes Photoshop, paquete office | 2012-2015
-                </p>
-              </div>
-            </div>
+    <div className="px-8 py-8 md:py-10 md:px-32 lg:py-20 bg-silverPlate">
 
-            {/* left --> */ } 
-            <div className="flex flex-row-reverse md:contents">
-              <div
-                className="bg-white col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
-              >
-                <h3 className="font-semibold text-lg mb-1"> Ingeniería Electronica</h3>
-                <p className="leading-tight text-justify">
-                 Unexpo, Venezuela | abr. 2012 - jun. 2017
-                </p>
-              </div>
-              <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
-                <div className="h-full w-6 flex items-center justify-center">
-                  <div className="h-full w-1 bg-white pointer-events-none"></div>
-                </div>
-                <div
-                  className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-purpleOpc shadow"
-                ></div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-  )
+      <p className="max-w-lg mb-6 text-3xl  font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto flex justify-center">
+        Educación
+      </p>
+    <ol className=" border-l-2 border-futurePurple dark:border-futurePurple-500 ">
+      
+      
+    <li>
+      <div className="flex-start flex items-center pt-8">
+        <div
+          className="-ml-[9px] mr-3 -mt-2 flex h-4 w-4 items-center justify-center rounded-full bg-futurePurple dark:bg-futurePurple-500"></div>
+        <h4 className="-mt-2 text-xl font-light">JavaScript Algorithms and Data Structures</h4>
+      </div>
+      <div className="ml-6 mb-6 pb-6">
+        <a
+          
+          href="https://www.freecodecamp.org/certification/fcc568d7948-29f7-4af6-b3f7-02f2223a215f/javascript-algorithms-and-data-structures" 
+          target="_blank"
+          className="text-sm text-futurePurple ease-in-out hover:text-futurePurple-600 dark:text-futurePurple-400 dark:hover:text-futurePurple-500 dark:focus:text-futurePurple-500"
+          >FreeCodeCampfreeCodeCamp 300hrs | Expedición: feb. 2023</a
+        >
+        <p className="mt-2 mb-4 text-neutral-600 dark:text-neutral-300">
+        </p>
+        <a
+          href="https://www.freecodecamp.org/certification/fcc568d7948-29f7-4af6-b3f7-02f2223a215f/javascript-algorithms-and-data-structures" 
+          target="_blank"
+          type="button"
+          className="inline-block rounded bg-futurePurple px-4 pt-[6px] pb-[5px] text-xs font-medium uppercase leading-normal text-white  transition duration-150 ease-in-out hover:bg-futurePurple-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-futurePurple-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-futurePurple-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
+          data-te-ripple-init
+          data-te-ripple-color="light">
+          Ver Certificado
+        </a>
+      </div>
+    </li>
+    <li>
+      <div className="flex-start flex items-center">
+        <div
+          className="-ml-[9px] mr-3 -mt-2 flex h-4 w-4 items-center justify-center rounded-full bg-futurePurple dark:bg-futurePurple-500"></div>
+        <h4 className="-mt-2 text-xl font-light">Ruby, Javascript y Gobstones</h4>
+      </div>
+      <div className="ml-6 mb-6 pb-6">
+        <a
+          
+          href="https://stevenzhunkporfolio.s3.amazonaws.com/Certificado-Argentina.jpg" 
+          target="_blank"
+          className="text-sm text-futurePurple ease-in-out hover:text-futurePurple-600 dark:text-futurePurple-400 dark:hover:text-futurePurple-500 dark:focus:text-futurePurple-500"
+          >Argentina ProgramaArgentina Programa (Ministerio de Economía y la Cámara Empresarial de Software y Servicios Informáticos (CESSI)) Expedición: may. 2022</a
+        >
+        <p className="mt-2 mb-4 text-neutral-600 dark:text-neutral-300">
+        </p>
+        <a
+          href="https://stevenzhunkporfolio.s3.amazonaws.com/Certificado-Argentina.jpg" 
+          target="_blank"
+          type="button"
+          className="inline-block rounded bg-futurePurple px-4 pt-[6px] pb-[5px] text-xs font-medium uppercase leading-normal text-white  transition duration-150 ease-in-out hover:bg-futurePurple-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-futurePurple-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-futurePurple-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
+          data-te-ripple-init
+          data-te-ripple-color="light">
+          Ver Certificado
+        </a>
+      </div>
+    </li>
+    <li>
+      <div className="flex-start flex items-center">
+        <div
+          className="-ml-[9px] mr-3 -mt-2 flex h-4 w-4 items-center justify-center rounded-full bg-futurePurple dark:bg-futurePurple-500"></div>
+        <h4 className="-mt-2 text-xl font-light">Advanced React JS</h4>
+      </div>
+      <div className="ml-6 mb-6 pb-6">
+        <a
+          className="text-sm text-futurePurple ease-in-out hover:text-futurePurple-600 dark:text-futurePurple-400 dark:hover:text-futurePurple-500 dark:focus:text-futurePurple-500"
+          >350 hrs Cursos online</a
+        >
+        <p className="mt-2 mb-4 text-neutral-600 dark:text-neutral-300">
+        </p>
+        
+      </div>
+    </li>
+    <li>
+      <div className="flex-start flex items-center">
+        <div
+          className="-ml-[9px] mr-3 -mt-2 flex h-4 w-4 items-center justify-center rounded-full bg-futurePurple dark:bg-futurePurple-500"></div>
+        <h4 className="-mt-2 text-xl font-light">Cursos presenciales y remotos</h4>
+      </div>
+      <div className="ml-6 mb-6 pb-6">
+        <a
+          href="https://www.freecodecamp.org/certification/fcc568d7948-29f7-4af6-b3f7-02f2223a215f/javascript-algorithms-and-data-structures" 
+          target="_blank"
+          className="text-sm text-futurePurple ease-in-out hover:text-futurePurple-600 dark:text-futurePurple-400 dark:hover:text-futurePurple-500 dark:focus:text-futurePurple-500"
+          >Programación Web Básica (CSS,HTML y Javascript), metodologías SCRUM, Edición de imágenes, Photoshop, paquete office | 2012-2015</a
+        >
+        <p className="mt-2 mb-4 text-neutral-600 dark:text-neutral-300">
+        </p>
+      </div>
+    </li>
+    <li>
+      <div className="flex-start flex items-center">
+        <div
+          className="-ml-[9px] mr-3 -mt-2 flex h-4 w-4 items-center justify-center rounded-full bg-futurePurple dark:bg-futurePurple-500"></div>
+        <h4 className="-mt-2 text-xl font-light">Ingeniería Electrónica</h4>
+      </div>
+      <div className="ml-6 mb-6 pb-6">
+        <a
+          
+          href="https://www.freecodecamp.org/certification/fcc568d7948-29f7-4af6-b3f7-02f2223a215f/javascript-algorithms-and-data-structures" 
+          target="_blank"
+          className="text-sm text-futurePurple ease-in-out hover:text-futurePurple-600 dark:text-futurePurple-400 dark:hover:text-futurePurple-500 dark:focus:text-futurePurple-500"
+          >Unexpo, Venezuela | abr. 2012 - jun. 2017</a
+        >
+        <p className="mt-2 mb-4 text-neutral-600 dark:text-neutral-300">
+        </p>
+      </div>
+    </li>
+  </ol>
+  </div>
+  );
 }
 
-export default Courses
+export default Courses;

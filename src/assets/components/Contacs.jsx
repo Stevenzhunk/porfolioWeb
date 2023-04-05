@@ -1,11 +1,10 @@
 import React from 'react'
-import whatsapp from '../Favicon/whatsapp.png'
-import spinvid from '../Favicon/spinvid.png'
+import { UilLinkedin,UilWhatsapp  } from '@iconscout/react-unicons';
 
 const Contacs = () => {
   return (
   <div>
-    <div className="px-4 py-16 mx-auto sm:max-w-full sm:px-24 sm:py-24 md:max-w-full  md:px-24 lg:px-8 lg:py-20 bg-darkpurple">
+    <div className="px-4 py-16 mx-auto sm:max-w-full sm:px-24 sm:py-24 md:max-w-full  md:px-24 lg:px-8 lg:pt-12 lg:pb-1 2 bg-darkpurple">
       <section id="contacme">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div >
@@ -22,26 +21,41 @@ const Contacs = () => {
         </h2>
         </div>
           <div className="">
-            <div className="grid justify-center md:justify-start md:flex divide-x divide-dashed ">
+            <div className="grid justify-center md:justify-center md:flex  ">
             <a  href="https://api.whatsapp.com/send?phone=541127253329" target="_blank"
-                className="bg-purpleOpc rounded-xl text-white font-bold flex space-x-1.5 justify-content: space-evenly; sm:justify-content: space-evenly ml-4 mr-4 items-center justify-center">
-                Send whatsapp
-                <img className="w-12" src={whatsapp}/>
+                className="bg-purpleOpc rounded-md text-white font-bold flex space-x-1.5 justify-content: space-evenly; sm:justify-content: space-evenly ml-4 mr-4 items-center justify-center ">
+                
+                <UilWhatsapp 
+                size="3rem"
+                className="text-white"
+                />
               </a>
-              <p className=" text-white mt-8 md:space-y-8 md:mt-0">
-              Numero: (+54) 91127253329, Argentina
-              </p>
+              <a  href="https://www.linkedin.com/in/luis-enrique-becerra-gonzalez-a80201266/" target="_blank"
+                className="bg-purpleOpc rounded-md text-white font-bold flex space-x-1.5 justify-content: space-evenly; sm:justify-content: space-evenly ml-4 mr-4 items-center justify-center md:space-y-8 md:mt-0 mt-8">
+                
+                <UilLinkedin 
+                size="3rem"
+                className="text-white"
+                />
+              </a>
               
-              <p className=" text-white mt-8 md:space-y-8 md:mt-0">
-                Email: stvzbernelli@gmail.com 
-              </p>
+              
             </div>
           </div>
       </div>
      </section>
+      <div className="flex justify-center">
+          <div className="animate-bounce bg-white dark:bg-slate-800 p-2 w-10 h-10 ring-1 ring-slate-900/5 dark:ring-slate-200/20 shadow-lg rounded-full flex items-center justify-center">
+            <a href="#Hero">
+            <svg className="w-6 h-6 text-violet-500 rotate-180" fill="none" strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+            </a>
+          </div>
+      </div>
     </div>
   </div>
   )
 }
 
-export default Contacs
+export default Contacs;
