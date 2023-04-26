@@ -87,8 +87,7 @@ const Courses = () => {
         <h4 className="-mt-2 text-xl font-light">Cursos presenciales y remotos</h4>
       </div>
       <div className="ml-6 mb-6 pb-6">
-        <a
-          href="https://www.freecodecamp.org/certification/fcc568d7948-29f7-4af6-b3f7-02f2223a215f/javascript-algorithms-and-data-structures" 
+        <a 
           target="_blank"
           className="text-sm text-futurePurple ease-in-out hover:text-futurePurple-600 dark:text-futurePurple-400 dark:hover:text-futurePurple-500 dark:focus:text-futurePurple-500"
           >Programación Web Básica (CSS,HTML y Javascript), metodologías SCRUM, Edición de imágenes, Photoshop, paquete office | 2012-2015</a
@@ -104,9 +103,7 @@ const Courses = () => {
         <h4 className="-mt-2 text-xl font-light">Ingeniería Electrónica</h4>
       </div>
       <div className="ml-6 mb-6 pb-6">
-        <a
-          
-          href="https://www.freecodecamp.org/certification/fcc568d7948-29f7-4af6-b3f7-02f2223a215f/javascript-algorithms-and-data-structures" 
+        <a 
           target="_blank"
           className="text-sm text-futurePurple ease-in-out hover:text-futurePurple-600 dark:text-futurePurple-400 dark:hover:text-futurePurple-500 dark:focus:text-futurePurple-500"
           >Unexpo, Venezuela | abr. 2012 - jun. 2017</a
