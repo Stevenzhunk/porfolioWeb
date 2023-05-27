@@ -1,5 +1,5 @@
 import React from 'react'
-import { UilLinkedin,UilWhatsapp  } from '@iconscout/react-unicons';
+import { UilLinkedin,UilWhatsapp, UilImport } from '@iconscout/react-unicons';
 
 const Contacs = () => {
   return (
@@ -43,16 +43,28 @@ const Contacs = () => {
             </div>
           </div>
       </div>
+      
+      <div className="flex justify-center ">
+        <div className="mt-4 flex gap-x-4 text-center sm:text-left md:justify-start justify-center">
+              <a href="https://stevenzhunkporfolio.s3.amazonaws.com/LuisBecerraresdev.pdf"  
+                 target='_blank'
+                 className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-white hover:ring-gray-900/20 bg-softpurpleOpc bg-purpleOpc hover:bg-white hover:text-purpleOpc md:text-sx">
+                  Descargar Resumen
+                </a>
+                
+        </div>
+      </div>
      </section>
-      <div className="flex justify-center">
+      <div className="flex justify-center py-12 ">
           <div className="animate-bounce bg-white dark:bg-slate-800 p-2 w-10 h-10 ring-1 ring-slate-900/5 dark:ring-slate-200/20 shadow-lg rounded-full flex items-center justify-center">
-            <a href="#Hero">
+            <a href="#Hero" >
             <svg className="w-6 h-6 text-violet-500 rotate-180" fill="none" strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
               <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
             </svg>
             </a>
           </div>
       </div>
+      
     </div>
   </div>
   )

@@ -1,4 +1,4 @@
-import {ol}  from 'tw-elements';
+
 
 const Courses = () => {
   return ( 
@@ -10,8 +10,8 @@ const Courses = () => {
     <ol className=" border-l-2 border-futurePurple dark:border-futurePurple-500 ">
       
       
-    <li>
-      <div className="flex-start flex items-center pt-8">
+    <li data-aos="fade-right">
+      <div className="flex-start flex items-center pt-8"  >
         <div
           className="-ml-[9px] mr-3 -mt-2 flex h-4 w-4 items-center justify-center rounded-full bg-futurePurple dark:bg-futurePurple-500"></div>
         <h4 className="-mt-2 text-xl font-light">JavaScript Algorithms and Data Structures</h4>
@@ -37,7 +37,7 @@ const Courses = () => {
         </a>
       </div>
     </li>
-    <li>
+    <li data-aos="fade-right">
       <div className="flex-start flex items-center">
         <div
           className="-ml-[9px] mr-3 -mt-2 flex h-4 w-4 items-center justify-center rounded-full bg-futurePurple dark:bg-futurePurple-500"></div>
@@ -64,7 +64,7 @@ const Courses = () => {
         </a>
       </div>
     </li>
-    <li>
+    <li data-aos="fade-right">
       <div className="flex-start flex items-center">
         <div
           className="-ml-[9px] mr-3 -mt-2 flex h-4 w-4 items-center justify-center rounded-full bg-futurePurple dark:bg-futurePurple-500"></div>
@@ -80,7 +80,7 @@ const Courses = () => {
         
       </div>
     </li>
-    <li>
+    <li data-aos="fade-right">
       <div className="flex-start flex items-center">
         <div
           className="-ml-[9px] mr-3 -mt-2 flex h-4 w-4 items-center justify-center rounded-full bg-futurePurple dark:bg-futurePurple-500"></div>
@@ -96,7 +96,7 @@ const Courses = () => {
         </p>
       </div>
     </li>
-    <li>
+    <li data-aos="fade-right">
       <div className="flex-start flex items-center">
         <div
           className="-ml-[9px] mr-3 -mt-2 flex h-4 w-4 items-center justify-center rounded-full bg-futurePurple dark:bg-futurePurple-500"></div>

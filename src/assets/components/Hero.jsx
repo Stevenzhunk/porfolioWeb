@@ -61,7 +61,7 @@ const Hero = () => {
           </div>
           
           {/*   Imagen Hero */}
-          <div className="pt-10 md:pt-0 md:ml-24 lg:ml-48 ">
+          <div className="pt-10 md:pt-0 md:ml-24 lg:ml-48" data-aos="zoom-in">
             <img className="m-auto pt-10 md:pt-0 w-96 md:max-w-xl"src={Imagen}/>
           </div>
           

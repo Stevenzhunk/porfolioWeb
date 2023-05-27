@@ -14,7 +14,7 @@ const Projects = () => {
 
           <div className="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
 
-              <div className="lg:flex">
+              <div className="lg:flex" data-aos="zoom-in">
                   
                   <img className="object-cover w-full h-56 rounded-lg lg:w-72 hover:scale-125" src={temperature} alt="Aplicación temperatura"/>
 
@@ -40,7 +40,7 @@ const Projects = () => {
                   </div>
               </div>
               
-              <div className="lg:flex">
+              <div className="lg:flex" data-aos="zoom-in">
                   <img className="object-cover w-full h-56 rounded-lg lg:w-72 hover:scale-125" src={smartstore} alt="Carrito de compras imagen"/>
 
                   <div className="flex flex-col  py-6 lg:mx-6 text-white">
@@ -67,7 +67,7 @@ const Projects = () => {
               </div>
 
 
-              <div className="lg:flex">
+              <div className="lg:flex" data-aos="zoom-in">
                   <img className="object-cover w-full h-56 rounded-lg lg:w-72 hover:scale-125 " src={Movietrailer} alt="Trailer app imagen"/>
 
                   <div className="flex flex-col  py-6 lg:mx-6 text-white">
@@ -92,7 +92,7 @@ const Projects = () => {
                   </div>
               </div>
 
-              <div className="lg:flex">
+              <div className="lg:flex" data-aos="zoom-in">
                   <img className="object-cover w-full h-56 rounded-lg lg:w-72 hover:scale-125" src={Ray3} alt="3 en Raya juego imagen"/>
 
                   <div className="flex flex-col  py-6 lg:mx-6 text-white">

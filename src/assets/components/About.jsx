@@ -9,9 +9,9 @@ import actualizacion from '../Favicon/actualizacion.png'
 
 const About = () => {
   return (
-    <div className="px-8 py-16 mx-auto sm:max-w-full md:max-w-full  md:px-24 lg:px-40 lg:py-20 bg-purpleOpc">
+    <div className="px-8 py-16 mx-auto sm:max-w-full md:max-w-full  md:px-24 lg:px-40 lg:py-32 bg-purpleOpc" >
       <section id="Aboutme">
-      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12 ml-auto mr-auto">
+      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12 ml-auto mr-auto" data-aos="fade-up" >
         <h2 className="max-w-lg mb-6 text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto flex justify-center">
           <span className="relative inline-block">
             <svg
@@ -28,7 +28,7 @@ const About = () => {
         </p>
         <p className="text-base font-light text-white md:text-lg pb-16">He sido capaz de diseñar sitios web de manera efectiva y eficiente, utilizando herramientas como HTML ,CSS y JavaScript para crear interfaces de usuario atractivas y funcionales, vía remoto. A lo largo de los años, tambien he trabajado en diversos proyectos de comercio electrónico (eCommerce), administración, y ventas electrónicas, adquiriendo una amplia experiencia en el mundo digital. </p>
       </div>
-      <div className="grid grid-cols-2 gap-5 row-gap-6 mb-10 sm:grid-cols-3 lg:grid-cols-6">
+      <div className="grid grid-cols-2 gap-5 row-gap-6 mb-10 sm:grid-cols-3 lg:grid-cols-6" data-aos="fade-up">
         <div className="text-center">
           <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
             <img src={protoboard}/>
