@@ -26,7 +26,7 @@ const About = () => {
         <p className="text-base font-light text-white md:text-lg pb-10">
         Desde muy joven, descubrí mi pasión por la Tecnología y el Diseño, lo que te llevó a estudiar Ing. Electrónica y Distintos cursos de Diseño gráfico, y paulatinamente especializarme en el Diseño Web. 
         </p>
-        <p className="text-base font-light text-white md:text-lg pb-16">He sido capaz de diseñar sitios web de manera efectiva y eficiente, utilizando herramientas como HTML ,CSS y JavaScript para crear interfaces de usuario atractivas y funcionales, vía remoto. A lo largo de los años, tambien he trabajado en diversos proyectos de comercio electrónico (eCommerce), administración, y ventas electrónicas, adquiriendo una amplia experiencia en el mundo digital. </p>
+        <p className="text-base font-light text-white md:text-lg pb-8">He sido capaz de diseñar sitios web de manera efectiva y eficiente, utilizando herramientas como HTML ,CSS y JavaScript para crear interfaces de usuario atractivas y funcionales, vía remoto. A lo largo de los años, tambien he trabajado en diversos proyectos de comercio electrónico (eCommerce), administración, y ventas electrónicas, adquiriendo una amplia experiencia en el mundo digital. </p>
       </div>
       <div className="grid grid-cols-2 gap-5 row-gap-6 mb-10 sm:grid-cols-3 lg:grid-cols-6" data-aos="fade-up">
         <div className="text-center">
