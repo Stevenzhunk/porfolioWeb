@@ -64,23 +64,15 @@ const About = () => {
             </p>
           </div>
           <div
-            className="grid grid-cols-2 gap-5 row-gap-6 mb-10 sm:grid-cols-3 lg:grid-cols-6"
+            className="grid grid-cols-2 gap-5 row-gap-5 mb-10 sm:grid-cols-3 lg:grid-cols-5"
             data-aos="fade-up"
           >
-            <div className="text-center">
-              <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
-                <img src={protoboard} />
-              </div>
-              <h6 className="mb-2 font-light leading-5 text-white">
-                Amante y estudiante de Electrónica
-              </h6>
-            </div>
             <div className="text-center">
               <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
                 <img src={dev} />
               </div>
               <h6 className="mb-2 font-light leading-5 text-white">
-                Amante de la programación
+                Amante de la Tecnología Electrónica e Informática
               </h6>
             </div>
             <div className="text-center">
