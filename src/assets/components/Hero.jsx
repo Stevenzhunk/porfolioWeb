@@ -95,6 +95,18 @@ const Hero = () => {
                 />
               </div>
             </div>
+            <div className="scroll-bottom">
+              <svg
+                className="home__svg animate__animated animate__fadeInRight"
+                width="30"
+                height="236"
+                viewBox="0 0 30 236"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                {/* Contenido del SVG */}
+              </svg>
+            </div>
             <div className="flex justify-center pt-8">
               <div>
                 <a

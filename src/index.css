@@ -23,3 +23,10 @@ body::-webkit-scrollbar-thumb {
 .heroImg {
   width: 26rem;
 }
+
+.scroll-bottom {
+  position: fixed;
+  bottom: 0;
+  right: 20px; /* Ajusta la posición según tus preferencias */
+  /* Agrega otros estilos según sea necesario */
+}
