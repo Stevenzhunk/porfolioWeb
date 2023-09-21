@@ -1,15 +1,23 @@
-import React, { useState } from "react";
-import { Transition } from "@headlessui/react";
+import React, { useState } from 'react';
+import { Transition } from '@headlessui/react';
 import { UilGithub } from '@iconscout/react-unicons';
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="bg-darkpurple">
+      <section id="navBar"></section>
+      <nav className="bg-graymetalsoft pt-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-end h-16">
-            <div className="flex items-center w-100 w-full justify-end">
+            <div className="flex items-center w-100 w-full justify-between">
+              {' '}
+              <div className="ml-10 flex items-baseline space-x-4 ">
+                <span className="text-white px-3 py-2 rounded-md text-xl font-medium">
+                  <span className="text-metal">{'<'}</span>Luis&nbsp;Becerra
+                  <span className="text-metal">{'/>'}</span>
+                </span>
+              </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4 ">
                   <a
@@ -17,7 +25,7 @@ function Nav() {
                     className=" hover:bg-gray-700 hover:bg-purpleOpc text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Acerca de Mi
-                  </a>                  
+                  </a>
 
                   <a
                     href="#proyects"
@@ -34,14 +42,13 @@ function Nav() {
                   </a>
 
                   <a
-                    href="https://github.com/Stevenzhunk?tab=repositories" 
+                    href="https://github.com/Stevenzhunk?tab=repositories"
                     target="_blank"
                     className="text-gray-300 hover:bg-gray-700  hover:bg-purpleOpc  bg-purpleOpc text-white hover:text-white px-3 py-2 rounded-md text-sm font-medium flex "
                   >
-                    <p className="mr-1 items-center flex">Mi Github</p> 
-                    <UilGithub className="text-white mx-auto"/>
+                    <p className="mr-1 items-center flex">Mi Github</p>
+                    <UilGithub className="text-white mx-auto" />
                   </a>
-
                 </div>
               </div>
             </div>
@@ -118,10 +125,10 @@ function Nav() {
                   Proyectos
                 </a>
                 <a
-                    href="#contacme"
-                    className="text-gray-300 hover:bg-gray-700  hover:bg-purpleOpc  bg-purpleOpc text-white hover:text-white px-3 py-2 rounded-md text-sm font-medium flex "
-                  >
-                    Contactar
+                  href="#contacme"
+                  className="text-gray-300 hover:bg-gray-700  hover:bg-purpleOpc  bg-purpleOpc text-white hover:text-white px-3 py-2 rounded-md text-sm font-medium flex "
+                >
+                  Contactar
                 </a>
               </div>
             </div>
@@ -130,7 +137,6 @@ function Nav() {
       </nav>
 
       {/* aqui comienza la magia de la appi*/}
-      
     </div>
   );
 }
