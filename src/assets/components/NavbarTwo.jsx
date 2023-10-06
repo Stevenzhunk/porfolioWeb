@@ -42,7 +42,7 @@ function Nav() {
                   </a>
 
                   <a
-                    href="https://github.com/Stevenzhunk?tab=repositories"
+                    href="https://github.com/Stevenzhunk"
                     target="_blank"
                     className="text-gray-300 hover:bg-gray-700  hover:bg-purpleOpc  bg-purpleOpc text-white hover:text-white px-3 py-2 rounded-md text-sm font-medium flex "
                   >
