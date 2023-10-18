@@ -24,7 +24,7 @@ const Projects = () => {
 
               <div className="flex flex-col  py-6 lg:mx-6 text-white">
                 <a
-                  href="https://weather-app-stvnz.s3.amazonaws.com/index.html"
+                  href="https://my-weather-app-blush.vercel.app"
                   target="_blank"
                   className="text-xl font-semibold text-gray-800 hover:underline dark:text-dark "
                 >
@@ -48,7 +48,7 @@ const Projects = () => {
                     />
                   </a>
                   <a
-                    href="https://weather-app-stvnz.s3.amazonaws.com/index.html"
+                    href="https://my-weather-app-blush.vercel.app"
                     target="_blank"
                     className=" rounded-lg  text-base font-semibold leading-7 text-white hover:ring-gray-900/20 bg-softpurpleOpc bg-darkpurple hover:bg-white hover:text-darkpurple text-left md:text-sx flex w-full pr-0 pl-0 ml-2"
                   >
