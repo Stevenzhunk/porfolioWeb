@@ -1,20 +1,15 @@
 import nodeJsImg from '../img/nodejsogo.svg';
 import tailwindLogo from '../img/tailwindcsslogo.svg';
+import nextJsSvg from '../img/nextjs.svg';
+import mySqlSvg from '../img/mysql.svg';
 const Technology = () => {
   return (
-    <div className="bg-metal py-20 sm:pb-32 lg:flex">
+    <div className="bg-white/70 py-20 sm:pb-32 lg:flex">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="mb-8 font-sans text-3xl font-bold leading-none tracking-tight text-gray-1000 sm:text-4xl md:mx-auto justify-center grid">
-          <span className="relative inline-block">
-            <svg
-              viewBox="0 0 52 24"
-              fill="currentColor"
-              className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
-            ></svg>
-            <span className="relative text-white md:grid md:justify-center md:my-4">
-              Stacks y Tecnologías
-            </span>
-          </span>{' '}
+          <span className="relative text-fullBlack md:grid md:justify-center md:my-4">
+            Stacks y Tecnologías
+          </span>
         </h2>
         <div
           className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-xl lg:grid-cols-6 "
@@ -131,6 +126,32 @@ const Technology = () => {
             <img
               src={tailwindLogo}
               alt="postman"
+              width="100"
+              height="100"
+            />{' '}
+          </a>{' '}
+          <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+            {' '}
+            <img src={nextJsSvg} alt="Next.js" width="100" height="100" />{' '}
+          </a>{' '}
+          <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+            {' '}
+            <img src={mySqlSvg} alt="MySQL" width="100" height="100" />{' '}
+          </a>{' '}
+          <a href="https://stripe.com/" target="_blank" rel="noreferrer">
+            {' '}
+            <img
+              src="https://www.vectorlogo.zone/logos/stripe/stripe-ar21.svg"
+              alt="Stripe"
+              width="100"
+              height="100"
+            />{' '}
+          </a>{' '}
+          <a href="https://aws.amazon.com/s3/" target="_blank" rel="noreferrer">
+            {' '}
+            <img
+              src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg"
+              alt="AWS S3"
               width="100"
               height="100"
             />{' '}

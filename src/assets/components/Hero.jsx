@@ -64,8 +64,8 @@ const Hero = () => {
                 </div>
                 <p className="text-lg leading-8 text-graysoft text-center sm:text-left m-0 md:justify-start justify-center">
                   Amante de la tecnología e informática, Pasando por Ing.
-                  Electrónico, Diseñador Gráfico y ahora enfoque en el Diseño
-                  Web
+                  Electrónico, Diseñador Gráfico y ahora enfoque en el
+                  Desarrollo Web
                 </p>
                 <div className="mt-8 flex gap-x-4 text-center sm:text-left md:justify-start justify-center">
                   <a
