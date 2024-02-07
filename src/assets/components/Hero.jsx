@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="relative px-6 m:px-8 max-w-6xl mx-auto">
         <section id="Hero">
           <div className="mx-auto pt-6 pb-32 sm:pt-30 sm:pb-30 md:max-w-5xl">
-            <div className="md:flex md:justify-center  ">
+            <div className="md:flex md:justify-center mx-auto ">
               {' '}
               {/* controlador centrador de texto e imagen en hero]*/}
               {/*Texto Hero*/}
@@ -62,10 +62,9 @@ const Hero = () => {
                     }}
                   />
                 </div>
-                <p className="text-lg leading-8 text-graysoft text-center sm:text-left m-0 md:justify-start justify-center">
+                <p className="text-lg leading-7 text-graysoft text-center sm:text-left m-0 md:justify-start justify-center">
                   Amante de la tecnología e informática, Pasando por Ing.
-                  Electrónico, Diseñador Gráfico y ahora enfoque en el
-                  Desarrollo Web
+                  Electrónico, Diseñador Gráfico y enfoque en el Desarrollo Web
                 </p>
                 <div className="mt-8 flex gap-x-4 text-center sm:text-left md:justify-start justify-center">
                   <a
