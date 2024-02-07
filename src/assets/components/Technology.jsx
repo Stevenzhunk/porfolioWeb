@@ -2,6 +2,7 @@ import nodeJsImg from '../img/nodejsogo.svg';
 import tailwindLogo from '../img/tailwindcsslogo.svg';
 import nextJsSvg from '../img/nextjs.svg';
 import mySqlSvg from '../img/mysql.svg';
+import photoshopSVG from '../img/adobe-photoshop.svg';
 const Technology = () => {
   return (
     <div className="bg-white/70 py-20 sm:pb-32 lg:flex">
@@ -87,29 +88,16 @@ const Technology = () => {
             <img src={nodeJsImg} alt="nodejs" width="100" height="100" />{' '}
           </a>{' '}
           <a
-            href="https://www.adobe.com/in/products/illustrator.html"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {' '}
-            <img
-              src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg"
-              alt="illustrator"
-              width="100"
-              height="100"
-            />{' '}
-          </a>{' '}
-          <a
             href="https://www.photoshop.com/en"
             target="_blank"
             rel="noreferrer"
           >
             {' '}
             <img
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg"
+              src={photoshopSVG}
               alt="photoshop"
-              width="100"
-              height="100"
+              width="80"
+              height="80"
             />{' '}
           </a>{' '}
           <a href="https://postman.com" target="_blank" rel="noreferrer">
