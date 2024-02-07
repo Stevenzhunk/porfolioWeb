@@ -33,7 +33,7 @@ const About = () => {
           </picture>
         </div>
       </div>
-      <div className="px-8 py-16 mx-auto sm:max-w-full md:max-w-full  md:px-24 lg:px-40 lg:py-32 bg-graymetalsoft">
+      <div className="px-8 py-16 mx-auto sm:max-w-full md:max-w-4xl  md:px-24 lg:px-40 lg:py-32">
         <section id="Aboutme">
           <div
             className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12 ml-auto mr-auto"
@@ -46,21 +46,20 @@ const About = () => {
                   fill="currentColor"
                   className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
                 ></svg>
-                <span className="relative text-white flex justify-center pb-10">
+                <span className="relative text-white flex justify-center pb-8">
                   Acerca de mi
                 </span>
               </span>{' '}
             </h2>
-            <p className="text-base font-light text-white md:text-xl pb-10">
+            <p className="text-base text-center font-light text-white md:text-lg pb-10 lg:pb-6 mx-auto">
               Desde temprano descubrí mi pasión por la Tecnología y el Diseño,
               lo que te llevó a estudiar Ing. Electrónica y Distintos cursos de
               Diseño gráfico, y paulatinamente especializarme en el Diseño Web.
             </p>
-            <p className="text-base font-light text-white md:text-xl pb-8">
-              He sido capaz trabajar en diversos proyectos de comercio
-              electrónico sitios web de manera efectiva y eficiente, utilizando
-              diversas herramientas y frameworks para crear interfaces de
-              usuario, vía remoto.
+            <p className="text-base  text-center font-light text-white md:text-lg pb-8 lg:pb-0 mx-auto">
+              He trabajado en diversos proyectos web ecommerce de manera
+              efectiva, utilizando diversas frameworks y herramientas para crear
+              interfaces de usuario, vía remoto.
             </p>
           </div>
           <div
@@ -69,7 +68,7 @@ const About = () => {
           >
             <div className="text-center">
               <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
-                <img src={dev} />
+                <img src={dev} className="xl:w-16" />
               </div>
               <h6 className="mb-2 font-light leading-5 text-white">
                 Amante de la Tecnología Electrónica e Informática
@@ -77,7 +76,7 @@ const About = () => {
             </div>
             <div className="text-center">
               <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
-                <img src={frames} />
+                <img src={frames} className="xl:w-16" />
               </div>
               <h6 className="mb-2 font-light leading-5 text-white">
                 Usando ultima tecnología de frameworks
@@ -85,7 +84,7 @@ const About = () => {
             </div>
             <div className="text-center">
               <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
-                <img src={scrum} />
+                <img src={scrum} className="xl:w-16" />
               </div>
               <h6 className="mb-2 font-light leading-5 text-white">
                 Diversas metodologías SCRUM
@@ -93,7 +92,7 @@ const About = () => {
             </div>
             <div className="text-center">
               <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
-                <img src={diseño} />
+                <img src={diseño} className="xl:w-16" />
               </div>
               <h6 className="mb-2 font-light leading-5 text-white">
                 Conocimientos en diversos programas de Diseño gráfico
@@ -101,7 +100,7 @@ const About = () => {
             </div>
             <div className="text-center">
               <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
-                <img src={actualizacion} />
+                <img src={actualizacion} className="xl:w-16" />
               </div>
               <h6 className="mb-2 font-light leading-5 text-white">
                 Siempre en constante actualización

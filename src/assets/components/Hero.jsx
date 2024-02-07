@@ -4,9 +4,9 @@ import Typewriter from 'typewriter-effect';
 const Hero = () => {
   return (
     <>
-      <div className="relative px-6 m:px-8 bg-graymetalsoft">
+      <div className="relative px-6 m:px-8 max-w-6xl mx-auto">
         <section id="Hero">
-          <div className="mx-auto pt-20 pb-32 sm:pt-30 sm:pb-30 md:max-w-6xl">
+          <div className="mx-auto pt-6 pb-32 sm:pt-30 sm:pb-30 md:max-w-5xl">
             <div className="md:flex md:justify-center  ">
               {' '}
               {/* controlador centrador de texto e imagen en hero]*/}
@@ -90,7 +90,7 @@ const Hero = () => {
                 data-aos="zoom-in"
               >
                 <img
-                  className="m-auto pt-10 md:pt-0 heroImg md:max-w-xl "
+                  className="m-auto pt-10 md:pt-0 heroImg max-w-sm md:max-w-xl "
                   src={Imagen}
                 />
               </div>

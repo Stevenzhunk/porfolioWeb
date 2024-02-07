@@ -30,3 +30,7 @@ body::-webkit-scrollbar-thumb {
   right: 20px; /* Ajusta la posición según tus preferencias */
   /* Agrega otros estilos según sea necesario */
 }
+
+h6 {
+  font-size: 0.875rem;
+}

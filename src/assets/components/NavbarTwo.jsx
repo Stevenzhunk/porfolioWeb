@@ -7,7 +7,7 @@ function Nav() {
   return (
     <div>
       <section id="navBar"></section>
-      <nav className="bg-graymetalsoft pt-4">
+      <nav className="pt-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-end h-16">
             <div className="flex items-center w-100 w-full justify-between">

@@ -1,6 +1,32 @@
 import React from 'react';
 
 const Steps = () => {
+  function calcularTiempoTranscurrido(desdeFecha) {
+    const fechaInicial = new Date(desdeFecha);
+    const fechaActual = new Date();
+    const diferenciaMs = fechaActual - fechaInicial;
+    const aniosTranscurridos = Math.floor(
+      diferenciaMs / (1000 * 60 * 60 * 24 * 365.25)
+    );
+    const mesesRestantes = Math.floor(
+      (diferenciaMs % (1000 * 60 * 60 * 24 * 365.25)) /
+        (1000 * 60 * 60 * 24 * 30.436875)
+    );
+    let resultado = '';
+    if (aniosTranscurridos > 0) {
+      resultado +=
+        aniosTranscurridos + (aniosTranscurridos === 1 ? ' año' : ' años');
+      if (mesesRestantes > 0) {
+        resultado +=
+          ' y ' + mesesRestantes + (mesesRestantes === 1 ? ' mes' : ' meses');
+      }
+    } else {
+      resultado += mesesRestantes + (mesesRestantes === 1 ? ' mes' : ' meses');
+    }
+    return resultado;
+  }
+
+  const novDate = '2022-10-05';
   return (
     <section className="dark:bg-gray-800 dark:text-gray-100  bg-darkpurple">
       <div className="container max-w-5xl px-4 py-16 lg:py-36 mx-auto">
@@ -12,7 +38,7 @@ const Steps = () => {
             data-aos-duration="500"
           >
             <div className="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:dark:bg-violet-400">
-              <h3 className="text-3xl font-semibold text-white">TIMELINE</h3>
+              <h3 className="text-3xl font-semibold text-white">Experiencia</h3>
               <span className="text-sm font-light tracking-wider uppercase text-graysoft  ">
                 Solo programacion{' '}
               </span>
@@ -31,12 +57,13 @@ const Steps = () => {
                 </h3>
                 <time className="text-xs tracking-wide uppercase text-graysoft py-2 ">
                   {' '}
-                  2022 - actualidad
+                  2022 Nov - actualidad (Hace{' '}
+                  {calcularTiempoTranscurrido(novDate)})
                 </time>
                 <p className="mt-3 text-white font-light">
                   Desarrollo web SPA con Framework
                 </p>
-                <p className="mt-3 text-white font-light text-sm">
+                <p className="mt-3 text-white font-light text-sm leading-6 max-w-lg ">
                   Desarrollo de páginas webs con Html, JavaScript, React.js,
                   Tailwind CSS, styled-components, AOS, Frame Motion, Express,
                   AWS Cloud, vercel, NODEJS, Github, Adobe Photoshop, Adobe
@@ -53,7 +80,7 @@ const Steps = () => {
                 <p className="mt-3 text-white font-light">
                   Creación de paginas web usando HTML, CSS y JavaScript
                 </p>
-                <p className="mt-3 text-white font-light text-sm">
+                <p className="mt-3 text-white font-light text-sm leading-6 max-w-lg">
                   Realización diseño web con CSS,HTMLy JavaScript vanilla,
                   usando plantillas y estilos CSS con JS, manejo de metodología
                   SCRUM con la herramienta trello, edición y creación de logos e
