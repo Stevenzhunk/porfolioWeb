@@ -52,14 +52,17 @@ const About = () => {
               </span>{' '}
             </h2>
             <p className="text-base text-center font-light text-white md:text-lg pb-10 lg:pb-6 mx-auto">
-              Desde temprano descubrí mi pasión por la Tecnología y el Diseño,
-              lo que te llevó a estudiar Ing. Electrónica y Distintos cursos de
-              Diseño gráfico, y paulatinamente especializarme en el Diseño Web.
+              Hola, Soy Luis Becerra, un Desarrollador Web (Full Stack). Desde
+              temprano descubrí mi pasión por la Tecnología y el Diseño, lo que
+              me llevó a estudiar Ing. Electrónica, Diseño Gráfico, con el pasar
+              del tiempo estudiar y especializarme completamente en el
+              Desarrollo Web.
             </p>
             <p className="text-base  text-center font-light text-white md:text-lg pb-8 lg:pb-0 mx-auto">
-              He trabajado en diversos proyectos web ecommerce de manera
-              efectiva, utilizando diversas frameworks y herramientas para crear
-              interfaces de usuario, vía remoto.
+              También he trabajado en diversos proyectos de creación de comercio
+              electrónico (E-commerce) usando CMS, Frameworks y estrategias de
+              marketing, proyectos de administración y venta electrónica,
+              adquiriendo amplia experiencia en el mundo IT.
             </p>
           </div>
           <div
