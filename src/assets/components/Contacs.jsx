@@ -46,7 +46,7 @@ const Contacs = () => {
           </nav>
           <div className="mt-4 flex gap-x-4 text-center sm:text-left md:justify-start justify-center">
             <a
-              href="https://stevenzhunkporfolio.s3.amazonaws.com/LuisBecerrarEsCV.pdf"
+              href="https://stevenzhunkporfolio.s3.amazonaws.com/assets/LuisBecerrarEsCV.pdf"
               target="_blank"
               className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-white hover:ring-gray-900/20 bg-softpurpleOpc bg-purpleOpc hover:bg-white hover:text-purpleOpc md:text-sx"
             >

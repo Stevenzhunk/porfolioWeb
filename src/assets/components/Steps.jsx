@@ -75,7 +75,7 @@ const Steps = () => {
                   Desarrollador Web Front-End (Siweb España remoto)
                 </h3>
                 <time className="text-xs tracking-wide uppercase text-graysoft py-2">
-                  Jul 2015 - Ene 2017
+                  Jul 2015 - Ene 2017 (1 AÑO Y  7 MESES)
                 </time>
                 <p className="mt-3 text-white font-light">
                   Creación de paginas web usando HTML, CSS y JavaScript
