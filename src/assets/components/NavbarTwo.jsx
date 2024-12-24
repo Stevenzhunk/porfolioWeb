@@ -11,14 +11,86 @@ function Nav() {
     <div className="">
       <section id="navBar"></section>
       <nav className="pt-4">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-0.5 md:mx-auto px-2 md:px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-end h-16">
             <div className="flex items-center w-100 w-full justify-between">
-              <div className="ml-10 flex items-baseline space-x-4 ">
-                <span className="text-fullBlack dark:text-white px-3 py-2 rounded-md text-xl font-medium">
-                  <span className="text-metal">{'<'}</span>Luis&nbsp;Becerra
-                  <span className="text-metal">{'/>'}</span>
+              <div className="md:ml-10 flex items-baseline space-x-4 ">
+                <span className="flex justify-center">
+                  <span className="text-metal @apply content-center; text-lg font-medium md:text-xl">
+                    {'<'}
+                  </span>
+                  <t className="text-fullBlack dark:text-white rounded-md text-lg font-medium md:text-xl">
+                    Luis&nbsp;Becerra
+                  </t>
+                  <t className="text-metal @apply content-center; text-lg font-medium md:text-xl">
+                    {'/>'}
+                  </t>
                 </span>
+                <div className=" w-1/3 md:hidden" id="mobile-menu">
+                  {/* Implementando Darkmode Mobile */}
+                  <label className="flex cursor-pointer gap-2">
+                    {/* Sol Icon */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className={`${
+                        darkMode ? 'opacity-0' : 'opacity-100'
+                      } transition-opacity duration-300`}
+                    >
+                      <circle cx="12" cy="12" r="5" />
+                      <path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" />
+                    </svg>
+
+                    {/* Dark Mode Toggle */}
+                    <input
+                      type="checkbox"
+                      value="synthwave"
+                      className="toggle theme-controller hidden"
+                      checked={darkMode} // Enlazar estado desde el contexto
+                      onChange={toggleDarkMode} // Actualizar estado desde el contexto
+                    />
+
+                    {/* Slider */}
+                    <span
+                      className={`w-12 h-6 rounded-full ${
+                        darkMode
+                          ? 'bg-purpleOpc'
+                          : 'bg-transparent border border-gray-300'
+                      } relative transition-all duration-300 ease-in-out flex items-center justify-between p-1`}
+                    >
+                      <span
+                        className={`w-4 h-4 bg-white rounded-full transition-transform duration-300 ease-in-out transform ${
+                          darkMode ? 'translate-x-6' : 'translate-x-0'
+                        }`}
+                      ></span>
+                    </span>
+
+                    {/* Moon Icon */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className={`${
+                        darkMode ? 'opacity-100' : 'opacity-0'
+                      } transition-opacity duration-300`}
+                    >
+                      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                  </label>
+                </div>
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-center space-x-4 ">
