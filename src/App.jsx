@@ -22,7 +22,7 @@ function App() {
             : { backgroundImage: `url(${BlackBlurBG})` } // Sin imagen de fondo en modo oscuro
         }
         className={`bg-cover bg-center h-screen ${
-          darkMode ? 'bg-softdark' : ''
+          darkMode ? 'bg-softdark' : 'bg-white'
         }`}
       >
         <Nav />
