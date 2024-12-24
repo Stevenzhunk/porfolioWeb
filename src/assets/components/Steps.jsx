@@ -29,7 +29,7 @@ const Steps = () => {
   const novDate = '2022-10-05';
   return (
     <section className="dark:bg-gray-800 dark:text-gray-100 bg-white dark:bg-darkpurple">
-      <div className="container max-w-5xl px-4 py-16 lg:py-4 mx-auto">
+      <div className="container max-w-5xl px-4 py-16 lg:py-16 mx-auto">
         <div className="grid gap-4 mx-4 sm:grid-cols-12">
           <div
             className="col-span-12 sm:col-span-3"

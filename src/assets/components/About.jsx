@@ -10,10 +10,10 @@ const About = () => {
   const { darkMode } = useDarkMode();
   return (
     <div className="bg-white dark:bg-softdark">
-      <div className="px-8 py-16 mx-auto sm:max-w-full md:max-w-4xl  md:px-24 lg:px-40 lg:py-32">
+      <div className="px-8 py-10 mx-auto sm:max-w-full md:max-w-4xl md:py-16  md:px-24 lg:px-32 lg:py-32">
         <section id="Aboutme">
           <div
-            className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12 ml-auto mr-auto"
+            className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-2 ml-auto mr-auto"
             data-aos="fade-up"
           >
             <h2 className="max-w-lg mb-6 text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto flex justify-center">
@@ -23,23 +23,31 @@ const About = () => {
                   fill="currentColor"
                   className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
                 ></svg>
-                <span className="relative text-fullBlack dark:text-white flex justify-center pb-4">
+                <span className="relative text-fullBlack dark:text-white flex justify-center pb-4 md:pb-0">
                   Acerca de mi
                 </span>
               </span>{' '}
             </h2>
-            <p className="text-base text-center font-light text-fullBlack dark:text-white md:text-lg pb-10 lg:pb-6 mx-auto">
-              Hola, Soy Luis Becerra, un Desarrollador Web (Full Stack). Desde
-              temprano descubrí mi pasión por la Tecnología y el Diseño, lo que
-              me llevó a estudiar Ing. Electrónica, Diseño Gráfico, con el pasar
-              del tiempo estudiar y especializarme completamente en el
+            <p className="text-base text-center font-light text-fullBlack dark:text-white md:text-base pb-10 lg:pb-6 mx-auto ">
+              Hola, soy Luis Becerra, un Desarrollador Web Full Stack
+              especializado en el stack MERN. Desde siempre, he sentido una
+              profunda pasión por el mundo de la tecnología, lo que me llevó a
+              explorar diferentes disciplinas, hasta consolidarme en el
               Desarrollo Web.
             </p>
-            <p className="text-base  text-center font-light text-fullBlack dark:text-white md:text-lg pb-8 lg:pb-0 mx-auto">
-              También he trabajado en diversos proyectos de creación de comercio
-              electrónico (E-commerce) usando CMS, Frameworks y estrategias de
-              marketing, proyectos de administración y venta electrónica,
-              adquiriendo amplia experiencia en el mundo IT.
+            <p className="text-base  text-center font-light text-fullBlack dark:text-white md:text-base pb-8 lg:pb-6 mx-auto">
+              He construido proyectos de comercio electrónico (E-commerce)
+              utilizando diversas herramientas como CMS, frameworks modernos y
+              estrategias avanzadas de marketing digital. Además, he
+              desarrollado soluciones de ventas en línea y administrativas,
+              adaptándome a las necesidades de clientes con distintos contextos
+              y lenguajes.
+            </p>
+            <p className="text-base  text-center font-light text-fullBlack dark:text-white md:text-base pb-8 lg:pb-0 mx-auto">
+              Gracias a mi experiencia práctica y multidisciplinaria, ofrezco un
+              enfoque integral que combina desarrollo técnico, diseño creativo y
+              estrategias de mercado, ayudando a empresas y emprendedores a
+              destacar en el competitivo mundo digital.
             </p>
           </div>
           <div
@@ -47,7 +55,7 @@ const About = () => {
             data-aos="fade-up"
           >
             <div className="text-center">
-              <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+              <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 md:mb-0 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
                 <img src={dev} className="xl:w-16" />
               </div>
               <h6 className="mb-2 font-light leading-5 text-fullBlack dark:text-white">
@@ -55,7 +63,7 @@ const About = () => {
               </h6>
             </div>
             <div className="text-center">
-              <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+              <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 md:mb-0 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
                 <img src={frames} className="xl:w-16" />
               </div>
               <h6 className="mb-2 font-light leading-5 text-fullBlack dark:text-white">
@@ -63,7 +71,7 @@ const About = () => {
               </h6>
             </div>
             <div className="text-center">
-              <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+              <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 md:mb-0 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
                 <img src={scrum} className="xl:w-16" />
               </div>
               <h6 className="mb-2 font-light leading-5 text-fullBlack dark:text-white">
@@ -71,7 +79,7 @@ const About = () => {
               </h6>
             </div>
             <div className="text-center">
-              <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+              <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 md:mb-0 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
                 <img src={diseño} className="xl:w-16" />
               </div>
               <h6 className="mb-2 font-light leading-5 text-fullBlack dark:text-white">
@@ -79,7 +87,7 @@ const About = () => {
               </h6>
             </div>
             <div className="text-center">
-              <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+              <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 md:mb-0 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
                 <img src={actualizacion} className="xl:w-16" />
               </div>
               <h6 className="mb-2 font-light leading-5 text-fullBlack dark:text-white">

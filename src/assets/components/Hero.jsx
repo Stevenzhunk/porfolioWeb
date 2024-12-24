@@ -7,7 +7,7 @@ const Hero = () => {
     <>
       <div className="relative px-6 m:px-8 max-w-6xl mx-auto">
         <section id="Hero">
-          <div className="mx-auto pt-6 pb-32 sm:pt-30 sm:pb-30 md:max-w-5xl">
+          <div className="mx-auto pt-6 pb-20 md:pb-30 sm:pt-30 sm:pb-30 md:max-w-5xl">
             <div className="md:flex md:justify-center mx-auto ">
               {' '}
               {/* controlador centrador de texto e imagen en hero]*/}
@@ -28,7 +28,7 @@ const Hero = () => {
                     }}
                     onInit={(typewriter) => {
                       typewriter
-                        .typeString('Diseñador Front End')
+                        .typeString('Desarrollador Front End')
                         .callFunction(() => {
                           //console.log('String typed out!');
                         })
@@ -39,7 +39,7 @@ const Hero = () => {
                         })
                         .start();
                       typewriter
-                        .typeString('Diseñador Back End')
+                        .typeString('Ecommerce')
                         .callFunction(() => {
                           //console.log('String typed out!');
                         })
@@ -50,7 +50,18 @@ const Hero = () => {
                         })
                         .start();
                       typewriter
-                        .typeString('Diseñador Full-Stack')
+                        .typeString('Desarrollador Back End')
+                        .callFunction(() => {
+                          //console.log('String typed out!');
+                        })
+                        .pauseFor(1500)
+                        .deleteAll()
+                        .callFunction(() => {
+                          //console.log('All strings were deleted');
+                        })
+                        .start();
+                      typewriter
+                        .typeString('Desarrollador Full-Stack')
                         .callFunction(() => {
                           //console.log('String typed out!');
                         })
@@ -64,8 +75,8 @@ const Hero = () => {
                   />
                 </div>
                 <p className="text-lg leading-7 text-metal dark:text-white text-center sm:text-left m-0 md:justify-start justify-center">
-                  Amante de la tecnología e informática, Pasando por Ing.
-                  Electrónico, Diseñador Gráfico y enfoque en el Desarrollo Web
+                  Hola, soy Desarrollador Web Full Stack MERN, con conocimiento
+                  en el área Ecommerce y estrategias de marketing.
                 </p>
                 <div className="mt-8 flex gap-x-4 text-center sm:text-left md:justify-start justify-center">
                   <a
@@ -90,7 +101,7 @@ const Hero = () => {
                 data-aos="zoom-in"
               >
                 <img
-                  className="m-auto pt-10 md:pt-0 heroImg max-w-sm md:max-w-xl "
+                  className="m-auto pt-2 md:pt-0 heroImg max-w-sm md:max-w-xl "
                   src={Imagen}
                 />
               </div>
