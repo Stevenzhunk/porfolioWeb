@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     './index.html',
     './src/**/*.{js,ts,jsx,tsx}',
@@ -28,16 +29,6 @@ module.exports = {
       futurePurple: '#362571',
       fullBlack: '#000000',
     },
-    /*color:{
-      transparent: 'transparent',
-      current: 'currentColor',
-      'darkpurple':'#252439',
-      'softdark':'#171D1C',
-      'purpleOpc':'#6244C5',
-      'yellowOpc':'#E2C044',
-      'graysoft':'#D3D0CB',
-    },
-    */
     extend: {
       backgroundImage: {},
     },

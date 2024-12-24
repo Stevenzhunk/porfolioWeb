@@ -1,6 +1,7 @@
 import React from 'react';
 import Imagen from '../img/herodef.png';
 import Typewriter from 'typewriter-effect';
+
 const Hero = () => {
   return (
     <>
@@ -12,13 +13,13 @@ const Hero = () => {
               {/* controlador centrador de texto e imagen en hero]*/}
               {/*Texto Hero*/}
               <div className="justify-center flex flex-col">
-                <p className="text-4xl font-bold tracking-tight sm:text-left sm:text-5xl text-white text-center">
+                <p className="text-4xl font-bold tracking-tight sm:text-left sm:text-5xl text-fullBlack dark:text-white text-center">
                   SOY
                 </p>
-                <h1 className="text-4xl font-bold tracking-tight  sm:text-7xl text-white text-center sm:text-left">
+                <h1 className="text-4xl font-bold tracking-tight  sm:text-7xl text-fullBlack dark:text-white text-center sm:text-left">
                   <span className="text-metal">#</span>LUIS BECERRA
                 </h1>
-                <div className="mt-6 text-xl leading-8 text-center sm:text-left text-white">
+                <div className="mt-6 text-xl leading-8 text-center sm:text-left text-fullBlack dark:text-white">
                   <Typewriter
                     options={{
                       autoStart: true,
@@ -62,7 +63,7 @@ const Hero = () => {
                     }}
                   />
                 </div>
-                <p className="text-lg leading-7 text-graysoft text-center sm:text-left m-0 md:justify-start justify-center">
+                <p className="text-lg leading-7 text-metal dark:text-white text-center sm:text-left m-0 md:justify-start justify-center">
                   Amante de la tecnología e informática, Pasando por Ing.
                   Electrónico, Diseñador Gráfico y enfoque en el Desarrollo Web
                 </p>

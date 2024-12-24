@@ -7,35 +7,24 @@ import Nav from './assets/components/NavbarTwo';
 import Projects from './assets/components/Projects';
 import Steps from './assets/components/Steps';
 import Technology from './assets/components/Technology';
-import ImagedocsDark from './assets/img/docs-dark@30.1a9f8cbf.avif';
-import ImagedocsDark2 from './assets/img/docs@30.8b9a76a2.avif';
+import WhiteBLurBG from './assets/img/whiteblur.jpg';
+import BlackBlurBG from './assets/img/darkBlur2.png';
+import { useDarkMode } from './assets/provider/Darkmode';
 
 function App() {
+  const { darkMode } = useDarkMode();
   return (
-    <div className="App ">
-      <div>
-        <div className="absolute z-20 top-0 inset-x-0 flex justify-center overflow-hidden pointer-events-none">
-          <div className="w-[108rem] flex-none flex justify-end">
-            <picture>
-              <source srcSet={ImagedocsDark2} type="image/avif" />
-              <img
-                src="./assets/img/docs@tinypng.d9e4dcdc.png"
-                alt=""
-                className="w-[71.75rem] flex-none max-w-none dark:hidden"
-                decoding="async"
-              />
-            </picture>
-            <picture>
-              <source srcSet={ImagedocsDark} type="image/avif" />
-              <img
-                src="./assets/img/docs-dark@tinypng.1bbe175e.png"
-                alt=""
-                className="w-[90rem] flex-none max-w-none hidden dark:block"
-                decoding="async"
-              />
-            </picture>
-          </div>
-        </div>
+    <div className="App">
+      <div
+        style={
+          !darkMode
+            ? { backgroundImage: `url(${WhiteBLurBG})` }
+            : { backgroundImage: `url(${BlackBlurBG})` } // Sin imagen de fondo en modo oscuro
+        }
+        className={`bg-cover bg-center h-screen ${
+          darkMode ? 'bg-softdark' : ''
+        }`}
+      >
         <Nav />
         <Hero />
       </div>

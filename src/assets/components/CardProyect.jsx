@@ -9,7 +9,7 @@ const CardProyect = ({ icon, iconAlt, linkUrl, gitUrl, desc, title }) => {
         alt={iconAlt}
       />
 
-      <div className="flex flex-col  py-6 lg:mx-6 text-white">
+      <div className="flex flex-col  py-6 lg:mx-6 text-fullBlack dark:text-white">
         <a
           href={linkUrl}
           target="_blank"

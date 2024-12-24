@@ -61,9 +61,9 @@ const Projects = () => {
 
   return (
     <div>
-      <section className="bg-futurePurple dark:bg-gray-900" id="proyects">
+      <section className="bg-white dark:bg-futurePurple" id="proyects">
         <div className="container px-6 md:px-16 py-10 mx-auto lg:py-20">
-          <h1 className="text-3xl font-semibold capitalize lg:text-4xl  dark:text-black flex justify-center text-white">
+          <h1 className="text-3xl font-semibold capitalize lg:text-4xl  dark:text-black flex justify-center text-fullBlack dark:text-white">
             Últimos Proyectos
           </h1>
 

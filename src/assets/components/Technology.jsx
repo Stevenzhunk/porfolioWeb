@@ -5,10 +5,10 @@ import mySqlSvg from '../img/mysql.svg';
 import photoshopSVG from '../img/adobe-photoshop.svg';
 const Technology = () => {
   return (
-    <div className="bg-white/70 py-20 sm:pb-32 lg:flex">
+    <div className="bg-yellowOpc dark:bg-metal py-20 sm:pb-32 lg:flex">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="mb-8 font-sans text-3xl font-bold leading-none tracking-tight text-gray-1000 sm:text-4xl md:mx-auto justify-center grid">
-          <span className="relative text-fullBlack md:grid md:justify-center md:my-4">
+          <span className="relative text-fullBlack dark:text-white md:grid md:justify-center md:my-4">
             Stacks y Tecnologías
           </span>
         </h2>

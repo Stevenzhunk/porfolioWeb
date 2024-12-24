@@ -48,11 +48,11 @@ const Courses = () => {
   ];
 
   return (
-    <div className="px-8 py-8 md:py-10 md:px-32 lg:py-20 bg-silverPlate">
-      <p className="max-w-lg mb-6 text-3xl  font-bold leading-none tracking-tight text-fullBlack sm:text-4xl md:mx-auto flex justify-center">
+    <div className="px-8 py-8 md:py-10 md:px-32 lg:py-20 bg-silverPlate dark:bg-graymetalsoft">
+      <p className="max-w-lg mb-6 text-3xl  font-bold leading-none tracking-tight text-fullBlack dark:text-graysoft sm:text-4xl md:mx-auto flex justify-center">
         Educación
       </p>
-      <ol className=" border-l-2 border-futurePurple dark:border-futurePurple-500 ">
+      <ol className=" border-l-2 border-futurePurple dark:border-purpleOpc ">
         {cursos.map((curso, index) => (
           <li data-aos="fade-right" key={index}>
             <CoursesHeader
