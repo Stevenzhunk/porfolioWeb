@@ -28,7 +28,7 @@ const Hero = () => {
                     }}
                     onInit={(typewriter) => {
                       typewriter
-                        .typeString('Desarrollador Front End')
+                        .typeString('Tester QA')
                         .callFunction(() => {
                           //console.log('String typed out!');
                         })
@@ -49,17 +49,7 @@ const Hero = () => {
                           //console.log('All strings were deleted');
                         })
                         .start();
-                      typewriter
-                        .typeString('Desarrollador Back End')
-                        .callFunction(() => {
-                          //console.log('String typed out!');
-                        })
-                        .pauseFor(1500)
-                        .deleteAll()
-                        .callFunction(() => {
-                          //console.log('All strings were deleted');
-                        })
-                        .start();
+
                       typewriter
                         .typeString('Desarrollador Full-Stack')
                         .callFunction(() => {
@@ -75,15 +65,15 @@ const Hero = () => {
                   />
                 </div>
                 <p className="text-lg leading-7 text-metal dark:text-white text-center sm:text-left m-0 md:justify-start justify-center">
-                  Hola, soy Desarrollador Web Full Stack MERN, con conocimiento
-                  en el área Ecommerce y estrategias de marketing.
+                  Hola, soy Desarrollador Web Full Stack MERN y Tester QA, con
+                  conocimiento en el área Ecommerce y estrategias de marketing.
                 </p>
                 <div className="mt-8 flex gap-x-4 text-center sm:text-left md:justify-start justify-center">
                   <a
                     href="#proyects"
                     className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-white hover:ring-gray-900/20 bg-softpurpleOpc bg-purpleOpc hover:bg-white hover:text-purpleOpc md:text-sx"
                   >
-                    Mis Trabajos
+                    Proyectos Personales
                   </a>
 
                   <a

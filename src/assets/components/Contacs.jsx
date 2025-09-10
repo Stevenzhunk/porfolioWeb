@@ -44,7 +44,7 @@ const Contacs = () => {
           </nav>
           <div className="mt-4 flex gap-x-4 text-center sm:text-left md:justify-start justify-center">
             <a
-              href="https://stevenzhunkporfolio.s3.us-east-1.amazonaws.com/MiCV%20Luis%20Becerra.pdf"
+              href="https://drive.google.com/file/d/1lIsRcjLyTWT9MtTD32gVZ4Q6KySwQ5ki/view"
               target="_blank"
               className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-white hover:ring-gray-900/20 bg-softpurpleOpc bg-purpleOpc hover:bg-white hover:text-purpleOpc md:text-sx"
             >
@@ -69,7 +69,7 @@ const Contacs = () => {
             </div>
           </nav>
           <aside>
-            <p>Porfolio Luis Becerra © 2023</p>
+            <p>Porfolio hecho con ReactJs codigo en mi Github © 2023</p>
           </aside>
         </footer>
       </section>

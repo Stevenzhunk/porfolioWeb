@@ -2,9 +2,20 @@ import CoursesHeader from './CoursesHeader';
 const Courses = () => {
   const cursos = [
     {
+      title: 'Testing QA',
+      time: 'Agencia de Habilidades para el Futuro | Marzo. 2023 - Jun. 2025 ',
+      urlLink:
+        'https://drive.google.com/file/d/1IQFIUAXhNmIMC7WfaF6lR9Xj6g4ZSUGx/view',
+      urlCertificate:
+        'https://drive.google.com/file/d/1IQFIUAXhNmIMC7WfaF6lR9Xj6g4ZSUGx/view',
+    },
+    {
       title: 'Codo a Codo 4.0 Programación FullStack Node, Express,MysQL, EJS',
-      time: 'Ministerio de Ciencia, Tecnología e Innovación de la Nación | Ago. 2023 - Dic. 2023 ',
-      disabled: 'hidden ',
+      time: 'Ministerio de Ciencia, Tecnología e Innovación de la Nación | Ago. 2023 - Mar. 2024 ',
+      urlLink:
+        'https://drive.google.com/file/d/1d15Q0xc2-s5CNxUwpV0XiPgiWydHMrvC/view',
+      urlCertificate:
+        'https://drive.google.com/file/d/1d15Q0xc2-s5CNxUwpV0XiPgiWydHMrvC/view',
     },
     {
       title: 'Full Stack Open (Full Stack MERN - Remoto Finlandia)',
@@ -36,7 +47,8 @@ const Courses = () => {
       disabled: 'hidden ',
     },
     {
-      title: 'Cursos presenciales y remotos',
+      title:
+        'Cursos presenciales y remotos de Photoshop, HTML, CSS3, JavaScript, Trello y GitHub',
       time: '',
       disabled: 'hidden ',
     },
@@ -50,7 +62,7 @@ const Courses = () => {
   return (
     <div className="px-8 py-8 md:py-10 md:px-32 lg:py-20 bg-silverPlate dark:bg-graymetalsoft">
       <p className="max-w-lg mb-6 text-3xl  font-bold leading-none tracking-tight text-fullBlack dark:text-graysoft sm:text-4xl md:mx-auto flex justify-center">
-        Educación
+        Formación y Certificados
       </p>
       <ol className=" border-l-2 border-futurePurple dark:border-purpleOpc ">
         {cursos.map((curso, index) => (

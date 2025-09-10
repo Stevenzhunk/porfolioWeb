@@ -27,6 +27,7 @@ const Steps = () => {
   }
 
   const novDate = '2022-10-05';
+  const octDate = '2021-10-05';
   return (
     <section className="dark:bg-gray-800 dark:text-gray-100 bg-white dark:bg-darkpurple">
       <div className="container max-w-5xl px-4 py-16 lg:py-16 mx-auto">
@@ -42,7 +43,7 @@ const Steps = () => {
                 Experiencia
               </h3>
               <span className="text-sm font-light tracking-wider uppercase text-fullBlack dark:text-graysoft py-2  ">
-                Solo programacion{' '}
+                IT{' '}
               </span>
             </div>
           </div>
@@ -55,7 +56,7 @@ const Steps = () => {
             <div className="col-span-12 space-y-12 relative px-0 md:px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-gray-700">
               <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-400">
                 <h3 className="text-2xl font-semibold tracking-wide text-fullBlack dark:text-white">
-                  Desarrollador Web Front-End como Freelancer
+                  Desarrollador Web Full Stack como Freelancer
                 </h3>
                 <time className="text-xs tracking-wide uppercase text-fullBlack dark:text-graysoft py-2 ">
                   {' '}
@@ -72,12 +73,29 @@ const Steps = () => {
                   Illustrator.
                 </p>
               </div>
-              <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-400 pt-8 md:pt-16">
+              <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-400 pt-8 md:pt-6">
+                <h3 className="text-2xl font-semibold tracking-wide text-fullBlack dark:text-white">
+                  Ecommerce (para Smartcap pagina eldorado.gg)
+                </h3>
+                <time className="text-xs tracking-wide uppercase text-fullBlack dark:text-graysoft py-2 ">
+                  {' '}
+                  2021 Oct - actualidad (Hace{' '}
+                  {calcularTiempoTranscurrido(octDate)})
+                </time>
+
+                <p className="mt-3 text-fullBlack dark:text-white font-light text-sm leading-6 max-w-lg ">
+                  Venta de servicios y productos gaming, atención al cliente de
+                  diversos países de Oceanía (mayoritariamente Australia) y
+                  Estados Unidos. Atención personalizada en habla inglesa con
+                  clientes vía llamada y streaming (Discord y Google Meet).
+                </p>
+              </div>
+              <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-400 pt-8 md:pt-6">
                 <h3 className="text-2xl font-semibold tracking-wide text-fullBlack dark:text-white ">
                   Desarrollador Web Front-End (Siweb España remoto)
                 </h3>
                 <time className="text-xs tracking-wide uppercase text-fullBlack dark:text-graysoft py-2">
-                  Jul 2015 - Ene 2017 (1 AÑO Y 7 MESES)
+                  Jul 2015 - Ene 2017
                 </time>
                 <p className="mt-3 text-fullBlack dark:text-white font-light">
                   Creación de paginas web usando HTML, CSS y JavaScript
