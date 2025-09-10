@@ -69,7 +69,7 @@ const Contacs = () => {
             </div>
           </nav>
           <aside>
-            <p>Porfolio hecho con ReactJs codigo en mi Github © 2023</p>
+            <p>Porfolio hecho con ReactJs codigo en mi Github © 2025</p>
           </aside>
         </footer>
       </section>
