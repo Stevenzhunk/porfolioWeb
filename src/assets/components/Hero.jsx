@@ -65,7 +65,7 @@ const Hero = () => {
                   />
                 </div>
                 <p className="text-lg leading-7 text-metal dark:text-white text-center sm:text-left m-0 md:justify-start justify-center">
-                  Hola, soy Desarrollador Web Full Stack MERN y Tester QA, con
+                  Hola, soy Desarrollador Web Full Stack MERN y QA Tester, con
                   conocimiento en el área Ecommerce y estrategias de marketing.
                 </p>
                 <div className="mt-8 flex gap-x-4 text-center sm:text-left md:justify-start justify-center">

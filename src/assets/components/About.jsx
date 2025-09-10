@@ -30,7 +30,7 @@ const About = () => {
             </h2>
             <p className="text-base text-center font-light text-fullBlack dark:text-white md:text-base pb-10 lg:pb-6 mx-auto ">
               Hola, soy Luis Becerra, un Desarrollador Web Full Stack
-              especializado en el stack MERN y Tester QA. He sentido una
+              especializado en el stack MERN y Testing QA. He sentido una
               profunda pasión por el mundo de la tecnología, lo que me llevó a
               explorar diferentes disciplinas.
             </p>
