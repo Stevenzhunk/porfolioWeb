@@ -64,7 +64,7 @@ const Projects = () => {
       <section className="bg-white dark:bg-futurePurple" id="proyects">
         <div className="container px-6 md:px-16 py-10 mx-auto lg:py-20">
           <h1 className="text-3xl font-semibold capitalize lg:text-4xl  dark:text-black flex justify-center text-fullBlack dark:text-white">
-            Últimos Proyectos
+            Proyectos Resaltantes
           </h1>
 
           <div className="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
